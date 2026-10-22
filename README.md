@@ -68,6 +68,7 @@ Many thanks to our WebMCP pioneers, Alex Nahas and Jason McGhee, for sharing the
 - [CliDeck MCP — Network Evidence Workbench](https://mcp.clideck.com/demo) - Live, read-only, version-aware network knowledge demo exposing deterministic lookup, change review, snapshot analysis, upgrade guidance, and topology analysis through WebMCP tools ([source](https://github.com/SmartRoot7/clideck-mcp)).
 - [isainative.dev](https://isainative.dev/) - Audits public GitHub repositories for AI coding readiness and exposes both declarative and imperative WebMCP tools.
 - [AGENTS.md WebMCP playground](https://faf.one/webmcp) - Writes an AGENTS.md from a repo's `project.faf` and scores its context, in the browser. Three WebMCP tools via `document.modelContext`: `emit_agents_md` and `score_faf` (imperative, `readOnlyHint`) and `fill_6ws` (declarative form that returns YAML without navigating). No server process ([source](https://github.com/Wolfe-Jam/faf-one-svelte-new/tree/main/src/routes/webmcp)).
+- [Yumi Network Set Evidence](https://noqt.no-qt.chatgpt.site/yumi/network-sets) - Public IPv4/IPv6 before/after CIDR set comparison with exact counts and smallest witnesses. Its experimental `document.modelContext` bridge has mocked callback coverage only; live WebMCP registration and invocation have not been verified. Manual and HTTP paths are available.
 
 ## Frameworks
 
